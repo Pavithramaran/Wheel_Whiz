@@ -69,8 +69,8 @@ class LoginPage extends StatelessWidget {
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
-                TextField(
-                  decoration: const InputDecoration(
+                const TextField(
+                  decoration: InputDecoration(
                     labelText: 'Email',
                     border: OutlineInputBorder(),
                    // fillColor: Colors.white,
@@ -78,9 +78,9 @@ class LoginPage extends StatelessWidget {
                   ),
                 ),
                 const SizedBox(height: 16.0),
-                TextField(
+                const TextField(
                   obscureText: true,
-                  decoration: const InputDecoration(
+                  decoration: InputDecoration(
                     labelText: 'Password',
                     border: OutlineInputBorder(),
                     //fillColor: Colors.white,
